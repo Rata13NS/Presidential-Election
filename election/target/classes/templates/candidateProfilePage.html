@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>2024 Presidential Election</title>
+    <link rel="stylesheet" type="text/css" href="/election.css"/>
+</head>
+<body>
+<div class="container" id="topContainer">
+    <div class="card" id="topCard">
+        <div class="card-body">
+            <h1 id="topH">2024 PRESIDENTIAL ELECTION</h1>
+        </div>
+    </div>
+    <div class="card" id="bottomContainer">
+        <div class="card-body">
+            <h1 id="bottomH">Choose for your future.  Vote for a candidate or run yourself!</h1>
+        </div>
+    </div>
+    <div class="card" id="buttonsHomeAndMyProfileCard">
+        <div class="card-body">
+            <button id="homeButton" type="button" class="btn btn-info" onclick="redirectToHomePage()">
+                Home
+            </button>
+            <button id="myProfileButton" type="button" class="btn btn-secondary" onclick="redirectToMyProgilePage()">
+                My profile
+            </button>
+        </div>
+    </div>
+    <div class="card" id="candidatesProfileCard">
+        <div class="card-body">
+            <h4 th:text="${person.firstName + ' ' + person.lastName + ' Candidate Profile'}">Candidate Profile</h4>
+            <br>
+            <h5>First Name:</h5>
+            <p th:text="${person.firstName}">First Name</p>
+            <br>
+            <h5>Last Name:</h5>
+            <p th:text="${person.lastName}">Last Name</p>
+            <br>
+            <h5>Age:</h5>
+            <p th:text="${person.age}">Age</p>
+            <br>
+            <h5>Profession:</h5>
+            <p th:text="${person.profession}">Profession</p>
+            <br>
+            <h5>Bibliography:</h5>
+            <p th:text="${person.bibliography}">Bibliography</p>
+            <br>
+            <h5>Motto:</h5>
+            <p th:text="${person.motto}">Motto</p>
+        </div>
+    </div>
+    <div class="card" id="numberOfVotesCard">
+        <div class="card-body">
+            <h4 id="numberOfVotesH">Number of votes</h4>
+            <h1 id="numberOfVotesH2" th:text="${person.nrOfVotes}">Number of Votes</h1>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" th:src="@{/election.js}"></script>
+<script>
+    function redirectToMyProgilePage() {
+        window.location.href = "/persons/my-profile";
+    }
+    function redirectToHomePage() {
+        window.location.href = "/persons/home";
+    }
+</script>
+
+</body>
+</html>

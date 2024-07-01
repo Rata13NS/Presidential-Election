@@ -1,0 +1,310 @@
+#topContainer {
+    background-color:blueviolet;
+    height: 100%;
+}
+
+#topContainerAllCandidates {
+    background-color:blueviolet;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+#topCard {
+    background-color:aquamarine;
+    height: 80px;
+}
+
+#bottomContainer {
+    margin-top: 800px;
+    background-color:aquamarine;
+}
+
+#topH {
+    display: block;
+    font-size: 2.5em;
+    margin-left: 9em;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#bottomH {
+    display: block;
+    font-size: 1.6em;
+    margin-left: 10em;
+    margin-right: 0;
+    font-weight: bold;
+
+}
+
+/*logInPage*/
+#logInCard {
+    margin-top: -630px;
+    background-color:aquamarine;
+    width: 262px;
+    margin-left: 31em;
+}
+
+#logInUsernameInput {
+    width: 225px;
+}
+
+#logInPasswordInput {
+    width: 225px;
+}
+
+/*createAccountPage*/
+#createAccountCard {
+    margin-top: -840px;
+    background-color:aquamarine;
+    width: 360px;
+    margin-left: 31em;
+}
+
+#createAccountH {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#setUsernameInput {
+    width: 235px;
+}
+
+#setPasswordInput {
+    width: 235px;
+}
+
+#confirmPasswordInput {
+    width: 235px;
+}
+
+#setPhoneInput {
+    width: 235px;
+}
+
+#setEmailInput {
+    width: 235px;
+}
+
+#setFirstNameInput {
+    width: 235px;
+}
+
+#setLastNameInput {
+    width: 235px;
+}
+
+#setAgeInput {
+    width: 235px;
+}
+
+#setProfessionInput {
+    width: 235px;
+}
+
+#createAccountButton {
+    width: 324px;
+}
+
+/*homePage*/
+#buttonsHomeAndMyProfileCard {
+    margin-top: -870px;
+    height: 0px;
+}
+
+#homeButton {
+    margin-top: -15px;
+    width: 627px;
+}
+
+#myProfileButton {
+    margin-top: -15px;
+    width: 627px;
+}
+
+#candidatesTopCard {
+    margin-top: 80px;
+    background-color:aquamarine;
+    width: 600px;
+    margin-left: 60px;
+}
+
+#candidatesTopH {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 155px;
+}
+
+#vote1Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote2Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote3Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote4Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote5Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote6Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote7Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote8Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote9Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#vote10Button {
+    width: 250px;
+    margin-top: -54px;
+    margin-left: 310px;
+}
+
+#allCandidatesProfileButton {
+    width: 560px;
+}
+
+#candidateRequestCard {
+    margin-top: -810px;
+    margin-left: 1160px;
+    background-color:aquamarine;
+    width: 249px;
+}
+
+#candidateRequestH {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#bibliographyH {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+#mottoH {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+#candidateRequestButton {
+    width: 210px;
+}
+
+/*candidatePage*/
+#candidatesProfileCard {
+    margin-top: 70px;
+    background-color:aquamarine;
+    width: 600px;
+    margin-left: 40px;
+}
+
+#candidateProfileH {
+    margin-left: 55px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#numberOfVotesCard {
+    margin-top: -450px;
+    background-color:aquamarine;
+    width: 300px;
+    margin-left: 820px;
+}
+
+#numberOfVotesH {
+    margin-left: 35px;
+}
+
+#numberOfVotesH2 {
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+/*myProfilePage*/
+#myProfileCard {
+    margin-top: 65px;
+    background-color:aquamarine;
+    width: 600px;
+    margin-left: 300px;
+}
+
+#myProfileH {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#firstNameInputMyProfile {
+    width: 565px;
+}
+
+#lastNameInputMyProfile {
+    width: 565px;
+}
+
+#ageInputMyProfile {
+    width: 565px;
+}
+
+#professionInputMyProfile {
+    width: 565px;
+}
+
+#phoneNumberInputMyProfile {
+    width: 565px;
+}
+
+#emailAdressInputMyProfile {
+    width: 565px;
+}
+
+#applyChangesButton {
+    margin-left: 200px;
+}
+
+/*allCandidatesPage*/
+#allCandidatesListCard {
+    margin-top: 80px;
+    background-color:aquamarine;
+    width: 600px;
+    margin-left: 300px;
+}
+
+html, body
+{
+    height: 100%;
+}
